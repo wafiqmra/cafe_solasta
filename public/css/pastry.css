@@ -1,0 +1,19 @@
+.pastry{
+    margin: 60px 0 0 120px;
+    
+}
+
+.pastry img{
+    border-radius: 20px 20px 20px 20px;
+    object-fit: cover;
+    width: 485px;
+    height: auto;
+}
+
+.pastry-content2{
+    margin: -593px 0 0 600px;
+}
+
+.pastry-content3{
+    margin: -593px 0 0 1200px;
+}

@@ -1,0 +1,225 @@
+body {
+    width: 100%;
+    height: 100%;
+    background: white;
+    position: relative;
+}
+
+.info-text {
+    width: 190px;
+    height: 27px;
+    left: 90px;
+    top: 720px;
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    font-family: Nunito;
+    font-weight: 400;
+    letter-spacing: 2px;
+    word-wrap: break-word;
+}
+
+.address-text {
+    width: 273px;
+    height: 27px;
+    left: 533px;
+    top: 720px;
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    font-family: Nunito;
+    font-weight: 400;
+    letter-spacing: 2px;
+    word-wrap: break-word;
+}
+
+.open-time-text {
+    width: 273px;
+    height: 27px;
+    left: 1142px;
+    top: 720px;
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    font-family: Nunito;
+    font-weight: 400;
+    letter-spacing: 2px;
+    word-wrap: break-word;
+}
+
+.background-box {
+    width: 1077px;
+    height: 420px;
+    left: 185px;
+    top: 143px;
+    position: absolute;
+    background: rgba(232, 194, 172, 0.815);
+}
+
+.border-box {
+    width: 443px;
+    height: 0px;
+    left: 502px;
+    top: 88.03px;
+    position: absolute;
+    mix-blend-mode: darken;
+    border: 1px black solid;
+}
+
+.details-text {
+    width: 164px;
+    height: 26px;
+    left: 212px;
+    top: 326px;
+    position: absolute;
+    color: black;
+    font-size: 16px;
+    font-family: Nunito;
+    font-weight: 400;
+    letter-spacing: 1.60px;
+    white-space: nowrap;
+}
+
+.details-text.email {
+    top: 361px;
+}
+
+.details-text.phone {
+    top: 396px;
+}
+
+.details-text.date {
+    top: 221px;
+}
+
+.details-text.time {
+    top: 256px;
+}
+
+.details-text.party-size {
+    top: 291px;
+}
+
+.additional-info-text {
+    width: 273px;
+    height: 27px;
+    left: 1142px;
+    top: 747px;
+    position: absolute;
+    color: #034266;
+    font-size: 15px;
+    font-family: Nunito;
+    font-weight: 400;
+    letter-spacing: 1.50px;
+    word-wrap: break-word;
+}
+
+.location-text {
+    width: 273px;
+    height: 44px;
+    left: 533px;
+    top: 747px;
+    position: absolute;
+    color: #034266;
+    font-size: 15px;
+    font-family: Nunito;
+    font-weight: 400;
+    letter-spacing: 1.50px;
+    word-wrap: break-word;
+}
+
+.thank-you-text {
+    left: 596px;
+    top: 50px;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-family: Nunito;
+    font-weight: 400;
+    letter-spacing: 2px;
+    word-wrap: break-word;
+}
+
+.reservation-details-text {
+    left: 212px;
+    top: 167px;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-family: Nunito;
+    font-weight: 400;
+    letter-spacing: 2px;
+    word-wrap: break-word;
+}
+
+.cancel-reservation-text {
+    left: 1064px;
+    top: 5px;
+    /* position: absolute; */
+    text-align: center;
+    color: black;
+    font-size: 16px;
+    font-family: Nunito;
+    font-weight: 400;
+    letter-spacing: 1.60px;
+    word-wrap: break-word;
+}
+
+.cancel-reservation-btn {
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    background-color: hsl(0, 0%, 100%);
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    font-size: 16px;
+    width: 200px;
+    height: 40px;
+    left: 950px;
+    top: 475px;
+    position: absolute;
+    text-align: center;
+}
+
+.cancel-popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 999;
+}
+
+.popup-content {
+    text-align: center;
+    font-size: 18px;
+}
+
+.confirm-btn, .cancel-btn {
+    cursor: pointer;
+    color: #fff;
+    background-color: #4CAF50;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.edit {
+    left: 300px;
+    top: 485px;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 16px;
+    font-family: Nunito;
+    font-weight: 400;
+    letter-spacing: 1.60px;
+    word-wrap: break-word;
+}
